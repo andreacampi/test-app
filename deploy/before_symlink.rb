@@ -1,0 +1,1 @@
+log " *** BEFORE SYMLINK *** "
