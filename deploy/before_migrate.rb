@@ -6,6 +6,5 @@ log " *** BEFORE MIGRATE *** "
 
 log "#{node.chef_environment}"
 log "#{@new_resource.environment_name}"
-
-log "#{@new_resource.inspect}"
-log "#{@deploy_resource.inspect}"
+log "#{@new_resource.shared_path}"
+log "#{@new_resource.release_path}"
